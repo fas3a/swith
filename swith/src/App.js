@@ -10,14 +10,16 @@ import Login from "./components/Login"
 function App() {
   return (
 
-    <div className="App">
+    <div className="">
+      <SectionOne/>
       {/* 
       <Header/>
-      <SectionOne/>
+      
       <SectionTwo/>
       <SectionThree/>
       <Footer/>
-      <Login/> */}
+      <Login/> 
+      */}
 
       <header className="card">
         

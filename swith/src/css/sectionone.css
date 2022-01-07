@@ -1,0 +1,27 @@
+.sectionone{
+    background-color: #062B46;
+    color: white;
+}
+.search{
+    min-width: 10px;
+}
+.hot-deal{
+    background-image: url("../images/image2.png");
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+.popular-categories{
+    background: linear-gradient(180deg, #785D42 0%, #1E96A6 100%);
+    border-radius: 10px;
+}
+.contact-nav{
+    background-color: #785D42;
+    border-radius: 10px;
+    /* position: relative; */
+}
+.contact-container{
+    border-radius: 10px;
+    padding: 0 1px;
+
+}
