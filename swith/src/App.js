@@ -10,26 +10,18 @@ import Login from './components/Login'
 function App() {
   return (
       
-    <div className='App'>
-      <SectionOne/>
-      {/* 
+    <div className='App py-2' style={{background:"#062B46"}}>
       <Header/>
+      <SectionOne/>
+      
+      {/* 
+      
       
       <SectionTwo/>
       <SectionThree/>
       <Footer/>
       <Login/> 
       */}
-
-      <header className='card'>
-        <div className='card-title text-primary mt-4'>
-          SWITH Global Market Hub
-        </div>
-        <p className='card-body'>
-          <b>Project Topic: </b>A startup that want to make it easier for
-          companies to purchase goods from China.
-        </p>
-      </header>
       <SectionThree />
     </div>
   )

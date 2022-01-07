@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import "../css/sectionone.css"
 import { AiOutlineShoppingCart, AiOutlineSearch, AiOutlineUnorderedList, AiOutlineUser } from "react-icons/ai";
 import { useState } from 'react';
+ 
 
 
 function SectionOne() {
@@ -11,15 +12,16 @@ function SectionOne() {
         <div className='sectionone px-4'>
 
             {/* Search Bar */}
-            <nav className='navbar py-3'>
-                <form className='justify-content-start d-flex'>
-                    <input type="search" className='form-control py-1 px-2 pill search' placeholder="Search for the product here!!" />
-                    <AiOutlineSearch size="2em" />
-                </form>
-                <div className='justify-content-end nav'>
-                    <a className='nav-link'><AiOutlineShoppingCart size="2em" color='white'/></a>
-                    <a className='nav-link'><AiOutlineUnorderedList size="2em" color='white'/></a>
-                </div>
+            <nav className='navbar py-4 row'>
+                    <div className='col-md-3'></div>
+                    <form className='justify-content-center d-flex col-md-6 bg-white py-1'>
+                            <input type="search" className='form-control py-1 px-2 pill search border-0' placeholder="Search for the product here!!" />
+                            <div className='btn btn-sm'><AiOutlineSearch size="1.5em" color='black'/></div>
+                    </form>
+                    <div className='justify-content-end nav col-md-3'>
+                        <a className='nav-link'><AiOutlineShoppingCart size="2em" color='white'/></a>
+                        <a className='nav-link'><AiOutlineUnorderedList size="2em" color='white'/></a>
+                    </div>
             </nav>
 
             {/* Popular Categories */}
@@ -65,15 +67,16 @@ function SectionOne() {
                         </div>
                 </div>
 
-                <div className="col-md-3 text-center contact-nav">
+                {/* contact us section */}
+                <div className="col-md-3  contact-nav">
                     <div className='contact-container my-5'>
                         <AiOutlineUser size="7em" className='my-3'/>
                         <div className='row my-2'>
                             <div className='col-md-6'>
-                                <button className=" btn btn-primary btn-sm px-4 mb-2 rounded-pill border-0" style={{backgroundColor:"#1E96A6"}}>Join Us</button>
+                                <button className=" btn btn-primary btn-sm px-3 mb-2 rounded-pill border-0" style={{backgroundColor:"#1E96A6"}}>Join Us</button>
                             </div>
                             <div className='col-md-6'>
-                                <button className="btn btn-primary btn-sm px-4 rounded-pill border-0" style={{backgroundColor:"#1E96A6"}}>Sign In</button>
+                                <button className="btn btn-primary btn-sm px-3 rounded-pill border-0" style={{backgroundColor:"#1E96A6"}}>Sign In</button>
                             </div>
                         </div>
                         <p className='my-5'>We will get you the product you desire</p>

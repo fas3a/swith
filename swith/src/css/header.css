@@ -1,0 +1,11 @@
+.banner{
+    background-image: url("../images/banner.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+.banner-text{
+    font-size: 20px;
+    /* line-height: 50px; */
+}
