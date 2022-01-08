@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body,p,h2{
+  padding: 0;
+  margin: 0;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Poppins', sans-serif;
+}
+
+.first-box{
+  width: 100%;
+  background-color: #062B46;
+  
+}
+.second-box-container{
+  width: 100%;
+}
+.second-box{
+  width: 80%;
+  margin: 0 auto;
+}
+.second-box h2{
+  width: 100%;
+  text-align: center;
+  
+}
+.first-box img{
+  width: 90%;
+  margin: 0 auto;
+}
+ .second-box p{
+  width: 25%;
+  margin: 0 auto;
+}
+.second-box p img{
+  width: 100%;
+}
+form{
+  color:#9B95A4;
+  margin-top: 2em;
+}
+input[type=email], input[type=password]{
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 10px 0;
+}
+input[type=email]:focus, input[type=password]:focus {
+  background-color: rgb(249, 252, 248);
+}
+.check{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#btn{
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  font-size: 16px;
+  text-align: center;
+  background-color: #1E96A5;
+  color: #fff;
+
+}
+form h5{
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+}
+form h5 a{
+  color: #1E96A5;
+}
+hr{
+  height: 20%;
+  width: 20%;
+  border: 1px solid #000;
+}
+.writeup p{
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+  color: black;
+}
+#icon{
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0;
+}
+#icon img{
+  width: 30px;
+}
+
+@media (max-width:800px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .first-box{
+    display: none;
+  }
+
+  h4{
+    font-size: 10px;
+  }
+  #icon img{
+    width: 20px;
+  }
+}
