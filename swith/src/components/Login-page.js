@@ -3,7 +3,7 @@ import logo2 from './images/log.png';
 import logo3 from './images/Group 53.png';
 import logo4 from './images/Group.png';
 import logo5 from './images/instagram.png';
-import './App.css';
+import '../css/Login-page';
 
 function App() {
   return (
