@@ -10,7 +10,6 @@ function SectionOne() {
 
     return (      
         <div className='sectionone px-4'>
-
             {/* Search Bar */}
             <nav className='navbar py-4 row'>
                     <div className='col-md-3'></div>
