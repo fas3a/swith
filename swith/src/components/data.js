@@ -6,6 +6,9 @@ const products = [
       'https://www.subhe.com/blog/wp-content/uploads/2019/10/Ecommerce-Photo-Editing.jpg',
     description: 'Lorem ipsum dolor sit amet consectetur.',
     rate: 4,
+    amount: 2000,
+    deduct: 600,
+    seller: 'Hullon Official Store',
   },
   {
     id: 2,
@@ -14,6 +17,9 @@ const products = [
       'https://assets-global.website-files.com/600fe6e1ff56087409a9f096/605b5a558848493df14d2d13_ecommerce-product-photography.jpg',
     description: 'Lorem ipsum dolor sit amet consectetur.',
     rate: 4,
+    amount: 2000,
+    deduct: 600,
+    seller: 'Hullon Official Store',
   },
   {
     id: 3,
@@ -22,6 +28,9 @@ const products = [
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQR8zzI0oNTZc3Rpstzt_Rfae2CTcieveBoK1wk_FpgRYZ0tLyV-0rd7xthwhTWtbXwCk&usqp=CAU',
     description: 'Lorem ipsum dolor sit amet consectetur.',
     rate: 4,
+    amount: 2000,
+    deduct: 600,
+    seller: 'Hullon Official Store',
   },
   {
     id: 4,
@@ -30,6 +39,9 @@ const products = [
       'https://assets-global.website-files.com/600fe6e1ff56087409a9f096/605b5a558848493df14d2d13_ecommerce-product-photography.jpg',
     description: 'Lorem ipsum dolor sit amet consectetur.',
     rate: 4,
+    amount: 2000,
+    deduct: 600,
+    seller: 'Hullon Official Store',
   },
   {
     id: 5,
@@ -38,6 +50,9 @@ const products = [
       'https://www.subhe.com/blog/wp-content/uploads/2019/10/Ecommerce-Photo-Editing.jpg',
     description: 'Lorem ipsum dolor sit amet consectetur.',
     rate: 4,
+    amount: 2000,
+    deduct: 600,
+    seller: 'Hullon Official Store',
   },
   {
     id: 6,
@@ -46,6 +61,9 @@ const products = [
       'https://assets-global.website-files.com/600fe6e1ff56087409a9f096/605b5a558848493df14d2d13_ecommerce-product-photography.jpg',
     description: 'Lorem ipsum dolor sit amet consectetur.',
     rate: 4,
+    amount: 2000,
+    deduct: 600,
+    seller: 'Hullon Official Store',
   },
   {
     id: 7,
@@ -54,6 +72,9 @@ const products = [
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQR8zzI0oNTZc3Rpstzt_Rfae2CTcieveBoK1wk_FpgRYZ0tLyV-0rd7xthwhTWtbXwCk&usqp=CAU',
     description: 'Lorem ipsum dolor sit amet consectetur.',
     rate: 4,
+    amount: 2000,
+    deduct: 600,
+    seller: 'Hullon Official Store',
   },
   {
     id: 8,
@@ -62,6 +83,9 @@ const products = [
       'https://assets-global.website-files.com/600fe6e1ff56087409a9f096/605b5a558848493df14d2d13_ecommerce-product-photography.jpg',
     description: 'Lorem ipsum dolor sit amet consectetur.',
     rate: 4,
+    amount: 2000,
+    deduct: 600,
+    seller: 'Hullon Official Store',
   },
 ]
 

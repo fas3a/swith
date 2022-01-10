@@ -5,6 +5,7 @@ import ReactStars from 'react-rating-stars-component'
 import Favorite from '@material-ui/icons/Favorite'
 // import { ArrowDownwardIcon } from '@material-ui/icons/'
 import { KeyboardArrowDown } from '@material-ui/icons/'
+import { Link } from 'react-router-dom'
 const Card = () => {
   const [rating, setRating] = useState(0)
   // const handleRating = (rate) => {
@@ -23,14 +24,14 @@ const Card = () => {
   // }
   return (
     <>
-      <div className='container grid grid-cols-2 md:grid-cols-4 gap-3 w-full sm:columns-6 mx-auto  my-3 text-center'>
+      <div className='grid grid-cols-2 md:grid-cols-4 gap-3 w-full sm:columns-6 mx-auto  my-3 text-center h-auto'>
         {products.map((product) => {
           const { id, name, image, description, rate } = product
           return (
             <>
               <article
                 key={id}
-                className=' max-w-sm sm:max-w-xs flex-1 rounded overflow-hidden shadow-lg hover:shadow-2xl bg-white'
+                className=' max-w-sm mx-auto sm:max-w-xs flex-1 rounded overflow-hidden shadow-lg hover:shadow-2xl bg-white p-2'
               >
                 <img
                   src={image}
@@ -52,6 +53,7 @@ const Card = () => {
                     size={18}
                   />
                   {/* <span>{rating}</span> */}
+
                   <button className='w-20 h-10 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold border border-blue-500 hover:border-transparent rounded'>
                     <Favorite className='mr-1 text-xs' />
                     <span className='text-sm'>Watch</span>

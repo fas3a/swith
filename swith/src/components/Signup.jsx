@@ -1,3 +1,4 @@
+import React from 'react'
 import logo from '../images/Frame 4.png'
 import logo2 from '../images/log.png'
 import logo3 from '../images/Group 53.png'
@@ -5,7 +6,7 @@ import logo4 from '../images/Group.png'
 import logo5 from '../images/instagram.png'
 import '../css/Login-page.css'
 import { Link } from 'react-router-dom'
-function Login() {
+const Signup = () => {
   return (
     <div className='container'>
       <div className='first-box'>
@@ -49,7 +50,7 @@ function Login() {
             </div>
             <button id='btn'>Continue</button>
             <h5>
-              Don't have an account? Create one<Link to='/signup'>here</Link>
+              <Link to='/login'>Click here to Login</Link>
             </h5>
             <div className='writeup'>
               <p>
@@ -68,4 +69,4 @@ function Login() {
   )
 }
 
-export default Login
+export default Signup
