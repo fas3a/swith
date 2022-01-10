@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.sidebar-wrapper{
+    width: 25%;
+}
+.sidebar-wrapper form{
+    margin: auto;
+    padding: 2rem;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size:  20px;
+    line-height:  41.47px;
+}
+.holder{
+    padding-left: 1rem;
+}
+
+@media (max-width:800px) 
+    {
+        .sidebar-wrapper{
+            width: 45%;
+        }
+        .sidebar-wrapper form{
+        font-size:  15px;
+        line-height:  30px;
+        }
+    }
