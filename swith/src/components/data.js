@@ -1,9 +1,10 @@
+const uri = 'https://ik.imagekit.io/wnvkyjz511xn/products'
 const products = [
   {
     id: 1,
     name: 'vintage typewriter',
-    image:
-      'https://www.subhe.com/blog/wp-content/uploads/2019/10/Ecommerce-Photo-Editing.jpg',
+    image: `${uri}/p1.png`,
+
     description: 'Lorem ipsum dolor sit amet consectetur.',
     rate: 4,
     amount: 2000,
@@ -12,9 +13,8 @@ const products = [
   },
   {
     id: 2,
-    name: 'vintage typewriter',
-    image:
-      'https://assets-global.website-files.com/600fe6e1ff56087409a9f096/605b5a558848493df14d2d13_ecommerce-product-photography.jpg',
+    name: 'Shoes',
+    image: `${uri}/shoe.png`,
     description: 'Lorem ipsum dolor sit amet consectetur.',
     rate: 4,
     amount: 2000,
@@ -23,9 +23,8 @@ const products = [
   },
   {
     id: 3,
-    name: 'vintage typewriter',
-    image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQR8zzI0oNTZc3Rpstzt_Rfae2CTcieveBoK1wk_FpgRYZ0tLyV-0rd7xthwhTWtbXwCk&usqp=CAU',
+    name: 'Tea Cup',
+    image: `${uri}/tea-cup.png`,
     description: 'Lorem ipsum dolor sit amet consectetur.',
     rate: 4,
     amount: 2000,
@@ -34,9 +33,8 @@ const products = [
   },
   {
     id: 4,
-    name: 'vintage typewriter',
-    image:
-      'https://assets-global.website-files.com/600fe6e1ff56087409a9f096/605b5a558848493df14d2d13_ecommerce-product-photography.jpg',
+    name: 'Ear Bud',
+    image: `${uri}/ear-bud.png`,
     description: 'Lorem ipsum dolor sit amet consectetur.',
     rate: 4,
     amount: 2000,
@@ -45,9 +43,8 @@ const products = [
   },
   {
     id: 5,
-    name: 'vintage typewriter',
-    image:
-      'https://www.subhe.com/blog/wp-content/uploads/2019/10/Ecommerce-Photo-Editing.jpg',
+    name: 'Ring',
+    image: `${uri}/ring.png`,
     description: 'Lorem ipsum dolor sit amet consectetur.',
     rate: 4,
     amount: 2000,
@@ -56,9 +53,8 @@ const products = [
   },
   {
     id: 6,
-    name: 'vintage typewriter',
-    image:
-      'https://assets-global.website-files.com/600fe6e1ff56087409a9f096/605b5a558848493df14d2d13_ecommerce-product-photography.jpg',
+    name: 'Nail pollish',
+    image: `${uri}/nail_polish.png`,
     description: 'Lorem ipsum dolor sit amet consectetur.',
     rate: 4,
     amount: 2000,
@@ -67,9 +63,8 @@ const products = [
   },
   {
     id: 7,
-    name: 'vintage typewriter',
-    image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQR8zzI0oNTZc3Rpstzt_Rfae2CTcieveBoK1wk_FpgRYZ0tLyV-0rd7xthwhTWtbXwCk&usqp=CAU',
+    name: 'purse',
+    image: `${uri}/purse.png`,
     description: 'Lorem ipsum dolor sit amet consectetur.',
     rate: 4,
     amount: 2000,
@@ -78,9 +73,8 @@ const products = [
   },
   {
     id: 8,
-    name: 'vintage typewriter',
-    image:
-      'https://assets-global.website-files.com/600fe6e1ff56087409a9f096/605b5a558848493df14d2d13_ecommerce-product-photography.jpg',
+    name: 'power  bank',
+    image: `${uri}/powerbank.png`,
     description: 'Lorem ipsum dolor sit amet consectetur.',
     rate: 4,
     amount: 2000,
