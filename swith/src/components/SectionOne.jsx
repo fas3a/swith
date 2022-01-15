@@ -9,7 +9,16 @@ import {
 } from 'react-icons/ai'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import SignUp from './SignUp'
+import SignIn from './SignIn'
+import Cart from './Cart'
+
 function SectionOne() {
+
+  const cart = () => {
+    <Cart/>
+  }
+
   return (
     <div className='sectionone px-4'>
       {/* Search Bar */}
@@ -26,9 +35,10 @@ function SectionOne() {
           </div>
         </form>
         <div className='justify-content-end nav col-md-3'>
-          <Link to='/cart' className='nav-link'>
+          {/* <Link to='/cart' className='nav-link'>
             <AiOutlineShoppingCart size='2em' color='white' />
-          </Link>
+          </Link> */}
+          <AiOutlineShoppingCart size='2em' color='white' onClick={cart}/>
           <a className='nav-link'>
             <AiOutlineUnorderedList size='2em' color='white' />
           </a>
@@ -121,24 +131,10 @@ function SectionOne() {
             <AiOutlineUser size='7em' className='my-3' />
             <div className='row my-2'>
               <div className='col-md-6'>
-                <Link to='/signup'>
-                  <button
-                    className=' btn btn-primary btn-sm px-3 mb-2 rounded-pill border-0'
-                    style={{ backgroundColor: '#1E96A6' }}
-                  >
-                    Join Us
-                  </button>
-                </Link>
+                <SignUp/>
               </div>
               <div className='col-md-6'>
-                <Link to='/signup'>
-                  <button
-                    className='btn btn-primary btn-sm px-3 rounded-pill border-0'
-                    style={{ backgroundColor: '#1E96A6' }}
-                  >
-                    Sign In
-                  </button>
-                </Link>
+                <SignIn/>
               </div>
             </div>
             <p className='my-5'>We will get you the product you desire</p>

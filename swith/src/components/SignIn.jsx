@@ -7,9 +7,9 @@ import log from "../images/log.png";
 import SocialMedia from "../data/socialMedia";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../css/sectionone.css";
-import SignIn from "./SignIn";
+import SignUp from "./SignUp";
 
-function SignUp() {
+function SignIn() {
   const [isOpen, setisOpen] = useState(false);
 
   const toggleModal = () => {
@@ -23,7 +23,7 @@ function SignUp() {
         style={{ backgroundColor: "#1E96A6" }}
         onClick={toggleModal}
       >
-        Join Us
+        Sign In
       </button>
       {/* <button className="btn btn-primary" onClick={toggleModal}>Sign In</button> */}
       <Modal
@@ -51,17 +51,17 @@ function SignUp() {
                   <a href="" style={{ textDecoration: "none" }}>
                     Home
                   </a>
-                  <SignIn />
                   <a
-                    href="#"
+                    href={<SignIn />}
                     style={{
                       textDecoration: "none",
                       borderBottom: "2px solid blue",
                     }}
                     className="text-black bb-1"
                   >
-                    Register
+                    Sign In
                   </a>
+                  <SignUp />
                 </div>
                 <div className="d-flex justify-content-center">
                   <img
@@ -71,31 +71,17 @@ function SignUp() {
                     alt=""
                   />
                 </div>
-                <div className="text">Sign Up Here</div>
+                <div className="text">Welcome</div>
                 <form action="" className="form">
                   <div
-                    className="justify-content-center pt-2 px-2 pb-2"
+                    className="justify-content-center pt-5 px-2 pb-2"
                     style={{ height: "auto" }}
                   >
-                    <input
-                      type="text"
-                      name="location"
-                      id=""
-                      placeholder="Location"
-                      className="form-control mb-2"
-                    />
-                    <input
-                      type="text"
-                      name="username"
-                      id=""
-                      placeholder="Username"
-                      className="form-control mb-2"
-                    />
                     <input
                       type="email"
                       name="email"
                       id=""
-                      placeholder="email@example.com"
+                      placeholder="email Address"
                       className="form-control mb-2"
                     />
                     <input
@@ -103,14 +89,7 @@ function SignUp() {
                       name="password"
                       id=""
                       placeholder="password"
-                      className="form-control mb-2"
-                    />
-                    <input
-                      type="password"
-                      name="password"
-                      id=""
-                      placeholder="Confirm password"
-                      className="form-control mb-2"
+                      className="form-control"
                     />
 
                     <div
@@ -187,4 +166,4 @@ function SignUp() {
   );
 }
 
-export default SignUp;
+export default SignIn;

@@ -3,7 +3,7 @@ import logo from '../images/logo.jpg'
 import { ImUser } from 'react-icons/im'
 import banner from '../images/banner.png'
 
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import '../css/header.css'
 
 function Header() {
@@ -18,24 +18,18 @@ function Header() {
           }}
         >
           <div className='d-flex'>
-            <Link to='/'>
-              <img
-                src={logo}
-                className='navbar-brand'
-                style={{ width: '50px' }}
-              ></img>
-            </Link>
+            <img
+              src={logo}
+              className='navbar-brand'
+              style={{ width: '50px' }}
+            ></img>
             <span className='navbar-text text-white'>
               Creating acces to the product you are looking for.
             </span>
           </div>
           <div className='d-flex '>
-            <Link to='/signup'>
-              <div className=' me-3 text-white'> JOIN US TODAY</div>
-            </Link>
-            <Link to='/signup'>
-              <ImUser size='1.5em' />
-            </Link>
+            <div className=' me-3 text-white'> JOIN US TODAY</div>
+            <ImUser size='1.5em' />
           </div>
         </div>
       </nav>

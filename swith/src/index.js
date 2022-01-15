@@ -2,22 +2,23 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
 import App from './App'
-import Login from './components/Login-page'
-import Signup from './components/Signup'
+// import Login from './components/Login-page'
+// import Signup from './components/Signup'
 // import Home from './components/Home';
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Cart from './components/Cart'
+// import { BrowserRouter, Routes, Route } from 'react-router-dom'
+// import Cart from './components/Cart'
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    {/* <BrowserRouter>
       <Routes>
         <Route path='/' exact element={<App />} />
         <Route path='/login' exact element={<Login />} />
         <Route path='/signup' exact element={<Signup />} />
         <Route path='/cart' exact element={<Cart />} />
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter> */}
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 )
