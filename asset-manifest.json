@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.6bd3b47c.css",
-    "main.js": "/static/js/main.8dc036bb.js",
-    "static/media/image2.png": "/static/media/image2.03b563e34cbcf3fe98c0.png",
-    "static/media/banner.png": "/static/media/banner.b9242f4560659ce3b6f2.png",
-    "static/media/Frame 4.png": "/static/media/Frame 4.73c6518174c32f87a534.png",
-    "static/media/log.png": "/static/media/log.2b0c16a4cfa579608fb9.png",
-    "static/media/four.jfif": "/static/media/four.71f4105ad6a44e088019.jfif",
-    "static/media/two.jfif": "/static/media/two.70bcde4b7d2e0f4b0fd7.jfif",
-    "static/media/three.jfif": "/static/media/three.7337f210d740546948a6.jfif",
-    "static/media/logo.jpg": "/static/media/logo.db260939f31e1fba640b.jpg",
-    "static/media/image7.png": "/static/media/image7.94ff4001d86e1bfa4b9a.png",
-    "static/media/image4.png": "/static/media/image4.7c1ad56ee6f799a1f55d.png",
-    "index.html": "/index.html",
-    "main.6bd3b47c.css.map": "/static/css/main.6bd3b47c.css.map",
-    "main.8dc036bb.js.map": "/static/js/main.8dc036bb.js.map"
+    "main.css": "/swith/static/css/main.0e121143.css",
+    "main.js": "/swith/static/js/main.2c2f819b.js",
+    "static/media/image2.png": "/swith/static/media/image2.03b563e34cbcf3fe98c0.png",
+    "static/media/banner.png": "/swith/static/media/banner.b9242f4560659ce3b6f2.png",
+    "static/media/Frame 4.png": "/swith/static/media/Frame 4.73c6518174c32f87a534.png",
+    "static/media/log.png": "/swith/static/media/log.2b0c16a4cfa579608fb9.png",
+    "static/media/four.jfif": "/swith/static/media/four.71f4105ad6a44e088019.jfif",
+    "static/media/two.jfif": "/swith/static/media/two.70bcde4b7d2e0f4b0fd7.jfif",
+    "static/media/three.jfif": "/swith/static/media/three.7337f210d740546948a6.jfif",
+    "static/media/logo.jpg": "/swith/static/media/logo.db260939f31e1fba640b.jpg",
+    "static/media/image7.png": "/swith/static/media/image7.94ff4001d86e1bfa4b9a.png",
+    "static/media/image4.png": "/swith/static/media/image4.7c1ad56ee6f799a1f55d.png",
+    "index.html": "/swith/index.html",
+    "main.0e121143.css.map": "/swith/static/css/main.0e121143.css.map",
+    "main.2c2f819b.js.map": "/swith/static/js/main.2c2f819b.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bd3b47c.css",
-    "static/js/main.8dc036bb.js"
+    "static/css/main.0e121143.css",
+    "static/js/main.2c2f819b.js"
   ]
 }
